@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h2>เข้าสู่ระบบ</h2>
+    <div class="login-container">
+        <form action="#" method="post">
+            <div class="input-group">
+                <select id="user-type" name="user-type" required>
+                    <option value="" disabled selected>เลือกประเภท</option>
+                    <option value="entrepreneur">ผู้ประกอบการ</option>
+                    <option value="applicant">ผู้สมัครงาน</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="citizen-id">เลขประจำตัวประชาชน</label>
+                <input type="text" id="citizen-id" name="citizen-id" placeholder="เลขประจำตัว" required>
+            </div>
+            <div class="input-group">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" id="password" name="password" placeholder="รหัสผ่าน" required>
+            </div>
+            <button type="submit" class="btn-login"><a href="rdylogin.html">เข้าสู่ระบบ</a></button>
+        </form>
+        <br>
+        <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p>
+        <button class="btn-signup"><a href="regis.html">สมัครสมาชิก</a></button>
+    </div>
+</body>
+</html>
