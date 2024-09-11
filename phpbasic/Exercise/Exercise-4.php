@@ -15,7 +15,7 @@
             while ($i < strlen($s) - 1) {
                 if (substr($s, $i, 2) == "aa") {
                     $ctr_aa++;
-                    $i += 2;
+                    $i += 1;
                 } else {
                     $i++;
                 }
