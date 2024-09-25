@@ -1,0 +1,52 @@
+body {
+  color: #fff;
+  text-align: center;
+  background: url(imgs/bg-main2.png);
+  font-family: poppins;
+  background-position: center;
+  background-size: cover;
+  height: 98.2vh;
+  font-size: 20px;
+  text-shadow:  -2px 5px 5px rgba(0, 0, 0, 0.5),
+    0px 0px 0px rgba(0, 0, 0, 0.5), 5px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  padding-right: 45px;
+  padding-left: 20px;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+button {
+  color: white;
+  padding: 14px 20px;
+  margin-top: 25px;
+  width: 15%;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  transition: 0.6s ease;
+  animation: animate 2s 1;
+  font-size: 15px;
+  font-weight: 900;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.5),
+  0px 0px 0px rgba(0, 0, 0, 0.5), 7px -5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}

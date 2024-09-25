@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    position: absolute;
+    width: 1000px;
+    left: 100px;
+    top: 45px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: poppins;
+    margin-right: 25px;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .welcome-msg {
+    font-family: poppins;
+    font-size: 65px;
+    margin: 0 0 25px;
+    text-shadow:  -2px 5px 5px rgba(0, 0, 0, 0.5),
+    0px 0px 0px rgba(0, 0, 0, 0.5), 5px -1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background: url(imgs/bg-shop.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2vw;
+    color: #fff;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    transition: 0.6s ease;
+    animation: animate 2s 1;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 100px;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
